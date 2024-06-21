@@ -12,10 +12,11 @@
             </div>
             <div style="flex: 1; text-align: right;">
                 <nav>
-                    <ul style="display: flex;">
-                        <li style="margin-left: 10px;"><a href="current-projects">Current Projects</a></li>
-                        <li style="margin-right: 10px;"><a href="/">Landing Page</a></li>
-                        <li><a href="portfolio">Portfolio</a></li>
+                    <ul style="display: flex; flex-wrap: nowrap;">
+                        <li style="margin-left: 10px; white-space: nowrap;"><a href="/">Landing Page</a></li>
+                        <li style="white-space: nowrap;"><a href="portfolio">Portfolio</a></li>
+                        <li style="margin-right: 10px; white-space: nowrap;"><a href="current+projects">Current Projects</a></li>
+                        <li style="margin-right: 20px; white-space: nowrap;"><a href="contact">Contact Me</a></li>
                     </ul>
                 </nav>
             </div>
@@ -23,9 +24,11 @@
     </header>
 
     <h1>Contact Details</h1>
-    <p>Email: nikopurdie@gmail.com</p>
-    <p>Phone: +64 022 135 0419</p>
-    
+    <ul>
+    <li><p>Email: nikopurdie@gmail.com</p></li>
+    <li><p>Phone: +64 022 135 0419</p></li>
+    </ul>
+
     <h2>Social Media</h2>
     <ul>
         <li><a href="https://www.telegram.com/">Telegram - @N1k0s9</a></li>
@@ -35,9 +38,9 @@
         <li><a href="https://discord.com">discord - @apringle</a></li>
     </ul>
 
-    <footer>
-        <p>&copy; 2024 Niko Purdie</p>
-    </footer>
+    <div class="copyright">
+        © Niko Purdie
+      </div>
     <link rel="stylesheet" href="/static/styles.css">
 </body>
 </html>

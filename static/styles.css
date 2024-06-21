@@ -53,3 +53,10 @@ body {
     h1 { font-size: 2rem; }
     nav { text-align: center; }
   }
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    align-self: flex-end;
+  }
