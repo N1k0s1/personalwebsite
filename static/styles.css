@@ -60,3 +60,7 @@ body {
     margin: 10px;
     align-self: flex-end;
   }
+  .footer {
+    text-align: right;
+    margin: 20px;
+  }
