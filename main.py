@@ -14,5 +14,9 @@ def portfolio():
 def contact():
     return render_template('contact.html')
 
+@app.route('/current+projects')
+def currentprojects():
+    return render_template('current_projects.html')
+
 if __name__ == '__main__':
     app.run()

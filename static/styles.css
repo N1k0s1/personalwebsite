@@ -30,14 +30,14 @@ body {
   }
   
   nav a {
-    color: #333;
+    background-color: transparent;
     text-decoration: underline;
     padding: 0.5rem 1rem;
     margin-right: 1rem;
   }
   
   nav a:hover {
-    background-color: #ddd;
+    color:blue;
   }
   
   main {
@@ -53,9 +53,3 @@ body {
     h1 { font-size: 2rem; }
     nav { text-align: center; }
   }
-nav, body{
-  background: #F1F2B5;
-  background: -webkit-linear-gradient(to right, #135058, #F1F2B5);
-  background: linear-gradient(to right, #135058, #F1F2B5);
-  
-}
