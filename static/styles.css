@@ -1,9 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Inter);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-    font-family: inter;
+  font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-  }
+    background: #F1F2B5;
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);
+    background: linear-gradient(to right, #135058, #F1F2B5);
+      }
   
   h1, h2, h3 {
     margin: 1rem 0;
@@ -22,9 +25,7 @@ body {
     font-size: 1.5rem;
   }
   
-  /* Navigation */
   nav {
-    background-color: #eee;
     padding: 1rem 2rem;
   }
   
@@ -52,4 +53,9 @@ body {
     h1 { font-size: 2rem; }
     nav { text-align: center; }
   }
+nav, body{
+  background: #F1F2B5;
+  background: -webkit-linear-gradient(to right, #135058, #F1F2B5);
+  background: linear-gradient(to right, #135058, #F1F2B5);
   
+}
