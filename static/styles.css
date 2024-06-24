@@ -54,13 +54,12 @@ body {
     nav { text-align: center; }
   }
   .copyright {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
-    margin: 10px;
-    align-self: flex-end;
   }
+  
   .footer {
-    text-align: right;
-    margin: 20px;
+    position: absolute;
+    bottom: 0;
   }
